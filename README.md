@@ -17,10 +17,16 @@ All equations can be found in [my thesis](https://inspirehep.net/record/1495499/
 
 This was done in the Mathematica notebook **NJL_TMR_Parameter_Fitting.nb**. It computes the HK parameter set which was used in my thesis for quark matter calculations with the three momentum regularised NJL model. The HK parameter set is only used for the three momentum regularised version of the model.
 
-### References:
+## References:
 
-1. [PRD, 83, 034005 (2011)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.83.034005) T. Inagaki, D. Kimura, H. Kohyama, A. Kvinikhidze, Nonet meson properties in the Nambu-Jona-Lasinio model with dimensional versus cutoff regularisation.
+1. [D. L. Whittenbury, PhD thesis](https://inspirehep.net/record/1495499/files/02whole.pdf) Hadrons and Quarks in Dense Matter: From Nuclear Matter to Neutron Stars, University of Adelaide.
 
-2. [PTEP, 7, 073D01 (2013)](https://academic.oup.com/ptep/article/2013/7/073D01/1571314) K. Masuda, T. Hatsuda and T. Takatsuka, Hadron-quark crossover and massive hybrid stars.
+2. [Phys. Rev. C 93, 035807 (2016)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.035807) D. L. Whittenbury, H. H. Matevosyan, and A. W. Thomas, Hybrid stars using the quark-meson coupling and proper-time Nambu–Jona-Lasinio models.
 
-3. [Phys. Rept. 247, 221-367 (1994)](https://www.sciencedirect.com/science/article/abs/pii/0370157394900221) T. Hatsuda and T. Kunihiro, QCD phenomenology based on a chiral effective Lagrangian.
+3. [Phys. Lett. B762 467-472 (2016)](https://www.sciencedirect.com/science/article/pii/S0370269316305627?via%3Dihub) D. L. Whittenbury, M. E. Carrillo-Serrano, and A. W. Thomas, Quark–meson coupling model based upon the Nambu–Jona Lasinio model.
+
+4. [PRD, 83, 034005 (2011)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.83.034005) T. Inagaki, D. Kimura, H. Kohyama, A. Kvinikhidze, Nonet meson properties in the Nambu-Jona-Lasinio model with dimensional versus cut-off regularisation.
+
+5. [PTEP, 7, 073D01 (2013)](https://academic.oup.com/ptep/article/2013/7/073D01/1571314) K. Masuda, T. Hatsuda and T. Takatsuka, Hadron-quark crossover and massive hybrid stars.
+
+6. [Phys. Rept. 247, 221-367 (1994)](https://www.sciencedirect.com/science/article/abs/pii/0370157394900221) T. Hatsuda and T. Kunihiro, QCD phenomenology based on a chiral effective Lagrangian.
