@@ -1,25 +1,23 @@
 # NJL Model Parameter Fitting
 
-Mathematica files which fit the parameters of the three momentum and proper time
+This repository contains Mathematica notebooks which fit the parameters of the three momentum and proper time
 regularised NJL models using low energy hadron phenomenology as constraints.
-These parameter sets were used in my PhD research which were published in Refs.
+These parameter sets were used in [my PhD research](https://inspirehep.net/record/1495499/files/02whole.pdf) which were published [here](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.035807) and [here](https://www.sciencedirect.com/science/article/pii/S0370269316305627?via%3Dihub).
 
+
+Please note these notebooks do not perform any quark matter calculations. Those were done in a separate C++ code. These are just simple notebooks to compute the parameter sets.
 
 ## Proper Time Regularised Model Parameter Fitting
 
-This Mathematica notebook computes the PS1 and PS2 parameter sets (and their variations with the infra-red cutoff included) which were used in my thesis for quark matter calculations with the Schwinger proper time regularised NJL model. It fits the models parameters to properties of low energy hadron phenomenology. Please note this notebook does not perform any quark matter calculations. That was done in a separate C++ code. The parameter set for the three momentum regularised version of the model is computed in a different notebook. This is just a simple notebook to compute these parameter sets.
+This was done in the Mathematica notebook **NJL_PTR_Parameter_Fitting.nb**. It computes the PS1 and PS2 parameter sets (and their variations with the infra-red cutoff included) which were used in my thesis for quark matter calculations with the Schwinger proper time regularised NJL model.    
 
-### PS1:
-Hadron phenomenology input: Subscript[M, l]=400 MeV, Subscript[M, s]=563 MeV, Subscript[m, \[Pi]]=140 MeV, Subscript[f, \[Pi]]= 93MeV. 
-* PS1-IR### include an infra-red cutoff Subscript[\[CapitalLambda], IR]= ### MeV.
+All equations can be found in [my thesis](https://inspirehep.net/record/1495499/files/02whole.pdf) and also in a number of other references. The relevant parts of my thesis are section 6.5 and the appendices B.8, B.9, B.10 and B11.
 
-### PS2:
-Hadron phenomenology input: Subscript[m, l]=5.5 MeV, Subscript[m, s]=135.7 MeV, Subscript[m, \[Pi]]= 140 MeV, Subscript[f, \[Pi]]=93 MeV
-* PS2-IR### include an infra-red cutoff Subscript[\[CapitalLambda], IR]= ### MeV.
+## Three Momentum Regularised Model Parameter Fitting
 
-Notebook Author: D. L. Whittenbury
-Version: v1.0
-Last Updated: 28/9/2018
+This was done in the Mathematica notebook **NJL_TMR_Parameter_Fitting.nb**. It computes the HK parameter set which was used in my thesis for quark matter calculations with the three momentum regularised NJL model. The HK parameter set is only used for the three momentum regularised version of the model.
 
 References:
-All equations can be found in my thesis and also in a number of other references. The relevant parts of my thesis are section 6.5 and the appendices B.8, B.9, B.10 and B11.
+(1) [PRD, 83, 034005 (2011)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.83.034005) T. Inagaki, D. Kimura, H. Kohyama, A. Kvinikhidze, Nonet meson properties in the Nambu-Jona-Lasinio model with dimensional versus cutoff regularisation.
+(2) [PTEP, 7, 073D01 (2013)](https://academic.oup.com/ptep/article/2013/7/073D01/1571314) K. Masuda, T. Hatsuda and T. Takatsuka, Hadron-quark crossover and massive hybrid stars.
+(3) [Phys. Rept. 247, 221-367 (1994)](https://www.sciencedirect.com/science/article/abs/pii/0370157394900221) T. Hatsuda and T. Kunihiro, QCD phenomenology based on a chiral effective Lagrangian.
