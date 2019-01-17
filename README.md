@@ -10,7 +10,7 @@ These parameter sets were used in my PhD research which were published in Refs.
 This Mathematica notebook computes the PS1 and PS2 parameter sets (and their variations with the infra-red cutoff included) which were used in my thesis for quark matter calculations with the Schwinger proper time regularised NJL model. It fits the models parameters to properties of low energy hadron phenomenology. Please note this notebook does not perform any quark matter calculations. That was done in a separate C++ code. The parameter set for the three momentum regularised version of the model is computed in a different notebook. This is just a simple notebook to compute these parameter sets.
 
 ### PS1:
-Hadron phenomenology input: Subscript[M, l]=400 MeV, Subscript[M, s]=563 MeV, Subscript[m, \[Pi]]=140 MeV, Subscript[f, \[Pi]]= 93MeV. $m_{\pi}$
+Hadron phenomenology input: Subscript[M, l]=400 MeV, Subscript[M, s]=563 MeV, Subscript[m, \[Pi]]=140 MeV, Subscript[f, \[Pi]]= 93MeV. 
 * PS1-IR### include an infra-red cutoff Subscript[\[CapitalLambda], IR]= ### MeV.
 
 ### PS2:
